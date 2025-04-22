@@ -12,11 +12,11 @@
 
 }
 .top-navbar p{
-    margin-top: 13px;
+    margin-top: 23px;
     margin-left: 15px;
 }
 .top-navbar .icons{
-    margin-top: 13px;
+    margin-top: 23px;
     margin-right: 15px;
 }
 .top-navbar a{
@@ -262,10 +262,25 @@
 }
 .card img{
     transition: 0.5s;
+    
 }
 .card:hover img{
     transform: scale(1.1);
 }
 /* product-cards */
+
+/* other cards */
+
+#other-cards {
+    margin-top: 30px;
+}
+#other-cards .card {
+    background-color: #a9a9a92b;
+}
+#other-cards .card h3 {
+    margin-top: 30px;
+}
+/* other cards */
+
 
 
