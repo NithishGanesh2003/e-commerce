@@ -134,21 +134,26 @@
     color: white;
     background-color: rgb(67 0 86);
     border-radius: 5px;
-    cursor: pointer;
+    cursor: pointer;   
 }
+
 /* about */
-
-/* offer */
-#offer{
-    margin-top: 100px;
-}
-#offer i{
-    font-size: 32px;
-    color: black;
-}
-/* offer */
-
-
+/* .logo-img {
+    width: 20px;
+    height: auto;
+  }
+  .logo-box {
+    border: 1px solid #dee2e6;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    background-color: #f8f9fa;
+    min-width: 80px;
+    text-align: center;
+  }
+  .logo-row {
+    overflow-x: auto;
+    white-space: nowrap;
+  } */
 
 html{
     scroll-behavior: smooth;
@@ -164,54 +169,6 @@ html{
     line-height: 50px;
 }
 
-/* newslater */
-#newslater{
-    margin-top: 100px;
-}
-#newslater h3{
-    font-size: 25px;
-    letter-spacing: 3px;
-}
-.input{
-    margin-top: 30px;
-}
-.input input{
-    width: 350px;
-    height: 36px;
-    letter-spacing: 2px;
-    border-radius: 3px;
-    border:  1px solid black;
-    padding-left: 5px;
-}
-#subscribe{
-    width: 200px;
-    height: 36px;
-    margin-left: 10px;
-    border-radius: 3px;
-    border: none;
-    background-color: #ffc800;
-    color: white;
-    letter-spacing: 3px;
-    font-weight: bold;
-    text-shadow: 0px 0px 1px black;
-}
-@media screen and (max-width:465px){
-    .input input{
-        width: 280px;
-    }
-    #subscribe{
-        margin-top: 10px;
-    }
-}
-@media screen and (max-width:250px){
-    .input input{
-        width: 150px;
-    }
-    #subscribe{
-        width: 150px;
-    }
-}
-/* newslater */
 
 
 
