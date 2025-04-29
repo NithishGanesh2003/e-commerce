@@ -131,7 +131,7 @@
     justify-content: center;
     flex-wrap: wrap;
     position: relative;
-    background-color: #a9a9a92b;
+    background-color: rgb(254, 242, 242)
     z-index: 0;
 }
 .home .img{
