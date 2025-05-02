@@ -1,0 +1,75 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(images/bg.jpg);
+    background-size: cover;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.title {
+    text-align: center;
+    padding: 50px 0 20px ;
+}
+.title h1 {
+    margin: 0;
+    padding: 0;
+    color: aquamarine;
+    text-transform: uppercase;
+    font-size: 36px;
+}
+.container {
+    width: 50%;
+    height: 400px;
+    background: #fff;
+    margin: 0 auto;
+    border: 2px solid #fff;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, .5);
+}
+.container .left {
+    float: left;
+    width: 50%;
+    height: 400px;
+    box-sizing: border-box;
+}
+.right {
+    float: right;
+    width: 50%;
+    height: 400px;
+    background: url(images/bg.jpg);
+    background-size: cover;
+    box-sizing: border-box;
+}
+.formbox {
+    width: 100%;
+    padding: 20px 50px;
+    box-sizing: border-box;
+    height: 400px;
+    background: #fff;
+}
+.formbox p {
+    font-weight: bold;
+  
+}
+.formbox input {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 50px;
+    
+}
+.formbox button {
+    display: block;
+    margin: 0px auto;
+    width: 70%;
+    height: 40px;
+    border-radius: 50px;
+    background-color: blue;
+    color: white;
+
+}
+/* .formbox input[type="text"] .formbox input[type="password"] {
+    border: none;
+    outline: none;
+    height: 40px;
+} */
+
