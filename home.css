@@ -131,7 +131,7 @@
     justify-content: center;
     flex-wrap: wrap;
     position: relative;
-    background-color: rgb(254, 242, 242)
+    background-color: rgb(254, 242, 242);
     z-index: 0;
 }
 .home .img{
@@ -281,6 +281,8 @@
 }
 #other-cards .card{
     background-color: #a9a9a92b;
+    width: 600px;
+    height: 450px;
 }
 #other-cards .card h3{
     margin-top: 30px;
